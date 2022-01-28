@@ -1,5 +1,6 @@
 package me.hdcookie.plugin.craftingmenu;
 
+import me.hdcookie.plugin.craftingmenu.menus.CraftingMenuCommand;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -14,6 +15,8 @@ public final class CraftingMenu extends JavaPlugin {
 
         Bukkit.getPluginManager().registerEvents(new SetItems(), this);
         Bukkit.getPluginManager().registerEvents(new CraftListener(), this);
+
+        getCommand("craftingMenu").setExecutor(new CraftingMenuCommand());
 
     }
 

@@ -29,6 +29,7 @@ public class SetItems implements Listener {
         player.getOpenInventory().getTopInventory().setItem(3, air);
         player.getOpenInventory().getTopInventory().setItem(4, air);
 
+
         Bukkit.getScheduler().runTaskLater(CraftingMenu.getMainInstance(), () -> {
             player.getOpenInventory().getTopInventory().setItem(1, item1);
             player.getOpenInventory().getTopInventory().setItem(2, item2);
