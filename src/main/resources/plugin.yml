@@ -1,0 +1,7 @@
+name: CraftingMenu
+version: '${project.version}'
+main: me.hdcookie.plugin.craftingmenu.CraftingMenu
+api-version: 1.18
+authors: [ HDcookie ]
+description: This is a plugin that adds a menu where the crafting slot is in survival mode.
+website: https://hdcookieportfolio.000webhostapp.com/

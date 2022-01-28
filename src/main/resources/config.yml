@@ -1,0 +1,29 @@
+ItemInfo:
+  Item1:
+    material: "CRAFTING_TABLE"
+    name: "Crafting table"
+    #Use \n for a new line
+    lore: "&eThis is your crafting table.  \nVery pog"
+    amount: 1
+    command: "craft"
+  Item2:
+    material: "GRASS"
+    name: "CustomItem"
+    #Use \n for a new line
+    lore: "&cThis is your new item.  \nVery pog"
+    amount: 1
+    command: "pl"
+  Item3:
+    material: "BARRIER"
+    name: "CustomItem"
+    #Use \n for a new line
+    lore: "&cThis is your new item.  \nVery pog"
+    amount: 1
+    command: "pl"
+  Item4:
+    material: "GRASS_BLOCK"
+    name: "CustomItem"
+    #Use \n for a new line
+    lore: "&cThis is your new item.  \nVery pog"
+    amount: 1
+    command: "pl"
