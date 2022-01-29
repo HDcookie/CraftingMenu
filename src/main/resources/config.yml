@@ -1,25 +1,28 @@
+#Crafting Menu, made by HDcookie
+#Use craftingMenu craft as a command to open up the crafting table
+
 ItemInfo:
   Item1:
     material: "CRAFTING_TABLE"
     name: "Crafting table"
-    lore: "&eThis is your crafting table.  
+    lore: "&eThis is your crafting table.  "
     amount: 1
-    command: "craft"
+    command: "craftingMenu craft"
   Item2:
     material: "GRASS"
     name: "CustomItem"
-    lore: "&cThis is your new item. 
+    lore: "&cThis is your new item. "
     amount: 1
     command: "pl"
   Item3:
     material: "BARRIER"
     name: "CustomItem"
-    lore: "&cThis is your new item. 
+    lore: "&cThis is your new item. "
     amount: 1
     command: "pl"
   Item4:
     material: "GRASS_BLOCK"
     name: "CustomItem"
-    lore: "&cThis is your new item.
+    lore: "&cThis is your new item. "
     amount: 1
     command: "pl"
