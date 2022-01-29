@@ -1,28 +1,45 @@
 #Crafting Menu, made by HDcookie
 #Use craftingMenu craft as a command to open up the crafting table
+#Use craftingMenu nothing as a command to do nothing
 
 ItemInfo:
   Item1:
     material: "CRAFTING_TABLE"
-    name: "Crafting table"
-    lore: "&eThis is your crafting table.  "
+    name: "&6Crafting &eTable"
+    lore:
+      line1: "&eOpen up a virtural.  "
+      line2: "&6Crafting &eTable"
+      line3: ""
+      line4: ""
     amount: 1
     command: "craftingMenu craft"
   Item2:
-    material: "GRASS"
-    name: "CustomItem"
-    lore: "&cThis is your new item. "
+    material: "RED_BANNER"
+    name: "&3Server Info"
+    lore:
+      line1: "&2Join our discord! &fhttps://discord.gg/Mmf4G3nsva "
+      line2: "&9Visit our website!  &fhttps://hdcookieportfolio.000webhostapp.com/"
+      line3: "&dCheck out our new updates!  &f/changelog"
+      line4: "&5Stuck?  Try &f/help"
     amount: 1
-    command: "pl"
+    command: "craftingMenu nothing"
   Item3:
     material: "BARRIER"
-    name: "CustomItem"
-    lore: "&cThis is your new item. "
+    name: "&cCustom Item"
+    lore:
+      line1: "&cThis is your new item. "
+      line2: "All of this can be configured"
+      line3: "With different commands"
+      line4: "or just info"
     amount: 1
     command: "pl"
   Item4:
-    material: "GRASS_BLOCK"
-    name: "CustomItem"
-    lore: "&cThis is your new item. "
+    material: "DIAMOND"
+    name: "&bGet a Diamond"
+    lore:
+      line1: "&cClick this to get a diamond! "
+      line2: "wow"
+      line3: "&7so cool"
+      line4: "&0Amazing"
     amount: 1
-    command: "pl"
+    command: "give @a minecraft:diamond"

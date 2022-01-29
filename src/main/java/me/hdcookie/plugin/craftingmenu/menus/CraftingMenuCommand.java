@@ -1,5 +1,6 @@
 package me.hdcookie.plugin.craftingmenu.menus;
 
+import org.bukkit.Material;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -16,8 +17,11 @@ public class CraftingMenuCommand implements CommandExecutor {
 
             if(args.length != 1){
                 sender.sendMessage("You're using this wrong");
-            }if(args.length == 1 ||args[0].equalsIgnoreCase("craft")){
+            }
+            if(args.length == 1 && args[0].equalsIgnoreCase("craft")){
                 player.openWorkbench(player.getLocation(), true);
+            }else if(args.length == 1 && args[0].equalsIgnoreCase("nothing")){
+
             }
 
 
