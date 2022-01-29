@@ -12,7 +12,10 @@ public class ItemStacks {
 
         ItemStack item1 = new ItemBuilder(Material.valueOf(config.getString("ItemInfo.Item1.material")))
                 .setName(ChatColor.translateAlternateColorCodes('&', config.getString("ItemInfo.Item1.name")))
-                .setLore(ChatColor.translateAlternateColorCodes('&', config.getString("ItemInfo.Item1.lore")))
+                .addLoreLine(ChatColor.translateAlternateColorCodes('&', config.getString("ItemInfo.Item1.lore.line1")))
+                .addLoreLine(ChatColor.translateAlternateColorCodes('&', config.getString("ItemInfo.Item1.lore.line2")))
+                .addLoreLine(ChatColor.translateAlternateColorCodes('&', config.getString("ItemInfo.Item1.lore.line3")))
+                .addLoreLine(ChatColor.translateAlternateColorCodes('&', config.getString("ItemInfo.Item1.lore.line4")))
                 .setAmount(config.getInt("ItemInfo.Item1.amount"))
                 .toItemStack();
 
@@ -23,7 +26,10 @@ public class ItemStacks {
 
         ItemStack item2 = new ItemBuilder(Material.valueOf(config.getString("ItemInfo.Item2.material")))
                 .setName(ChatColor.translateAlternateColorCodes('&', config.getString("ItemInfo.Item2.name")))
-                .setLore(ChatColor.translateAlternateColorCodes('&', config.getString("ItemInfo.Item2.lore")))
+                .addLoreLine(ChatColor.translateAlternateColorCodes('&', config.getString("ItemInfo.Item2.lore.line1")))
+                .addLoreLine(ChatColor.translateAlternateColorCodes('&', config.getString("ItemInfo.Item2.lore.line2")))
+                .addLoreLine(ChatColor.translateAlternateColorCodes('&', config.getString("ItemInfo.Item2.lore.line3")))
+                .addLoreLine(ChatColor.translateAlternateColorCodes('&', config.getString("ItemInfo.Item2.lore.line4")))
                 .setAmount(config.getInt("ItemInfo.Item2.amount"))
                 .toItemStack();
 
@@ -34,7 +40,10 @@ public class ItemStacks {
 
         ItemStack item3 = new ItemBuilder(Material.valueOf(config.getString("ItemInfo.Item3.material")))
                 .setName(ChatColor.translateAlternateColorCodes('&', config.getString("ItemInfo.Item3.name")))
-                .setLore(ChatColor.translateAlternateColorCodes('&', config.getString("ItemInfo.Item3.lore")))
+                .addLoreLine(ChatColor.translateAlternateColorCodes('&', config.getString("ItemInfo.Item4.lore.line1")))
+                .addLoreLine(ChatColor.translateAlternateColorCodes('&', config.getString("ItemInfo.Item4.lore.line2")))
+                .addLoreLine(ChatColor.translateAlternateColorCodes('&', config.getString("ItemInfo.Item4.lore.line3")))
+                .addLoreLine(ChatColor.translateAlternateColorCodes('&', config.getString("ItemInfo.Item4.lore.line4")))
                 .setAmount(config.getInt("ItemInfo.Item3.amount"))
                 .toItemStack();
 
@@ -45,7 +54,10 @@ public class ItemStacks {
 
         ItemStack item4 = new ItemBuilder(Material.valueOf(config.getString("ItemInfo.Item3.material")))
                 .setName(ChatColor.translateAlternateColorCodes('&', config.getString("ItemInfo.Item4.name")))
-                .setLore(ChatColor.translateAlternateColorCodes('&', config.getString("ItemInfo.Item4.lore")))
+                .addLoreLine(ChatColor.translateAlternateColorCodes('&', config.getString("ItemInfo.Item4.lore.line1")))
+                .addLoreLine(ChatColor.translateAlternateColorCodes('&', config.getString("ItemInfo.Item4.lore.line2")))
+                .addLoreLine(ChatColor.translateAlternateColorCodes('&', config.getString("ItemInfo.Item4.lore.line3")))
+                .addLoreLine(ChatColor.translateAlternateColorCodes('&', config.getString("ItemInfo.Item4.lore.line4")))
                 .setAmount(config.getInt("ItemInfo.Item4.amount"))
                 .toItemStack();
 
