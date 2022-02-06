@@ -40,10 +40,10 @@ public class ItemStacks {
 
         ItemStack item3 = new ItemBuilder(Material.valueOf(config.getString("ItemInfo.Item3.material")))
                 .setName(ChatColor.translateAlternateColorCodes('&', config.getString("ItemInfo.Item3.name")))
-                .addLoreLine(ChatColor.translateAlternateColorCodes('&', config.getString("ItemInfo.Item4.lore.line1")))
-                .addLoreLine(ChatColor.translateAlternateColorCodes('&', config.getString("ItemInfo.Item4.lore.line2")))
-                .addLoreLine(ChatColor.translateAlternateColorCodes('&', config.getString("ItemInfo.Item4.lore.line3")))
-                .addLoreLine(ChatColor.translateAlternateColorCodes('&', config.getString("ItemInfo.Item4.lore.line4")))
+                .addLoreLine(ChatColor.translateAlternateColorCodes('&', config.getString("ItemInfo.Item3.lore.line1")))
+                .addLoreLine(ChatColor.translateAlternateColorCodes('&', config.getString("ItemInfo.Item3.lore.line2")))
+                .addLoreLine(ChatColor.translateAlternateColorCodes('&', config.getString("ItemInfo.Item3.lore.line3")))
+                .addLoreLine(ChatColor.translateAlternateColorCodes('&', config.getString("ItemInfo.Item3.lore.line4")))
                 .setAmount(config.getInt("ItemInfo.Item3.amount"))
                 .toItemStack();
 
@@ -52,7 +52,7 @@ public class ItemStacks {
     public static ItemStack getItem4(){
         FileConfiguration config = CraftingMenu.getMainInstance().getConfig();
 
-        ItemStack item4 = new ItemBuilder(Material.valueOf(config.getString("ItemInfo.Item3.material")))
+        ItemStack item4 = new ItemBuilder(Material.valueOf(config.getString("ItemInfo.Item4.material")))
                 .setName(ChatColor.translateAlternateColorCodes('&', config.getString("ItemInfo.Item4.name")))
                 .addLoreLine(ChatColor.translateAlternateColorCodes('&', config.getString("ItemInfo.Item4.lore.line1")))
                 .addLoreLine(ChatColor.translateAlternateColorCodes('&', config.getString("ItemInfo.Item4.lore.line2")))
